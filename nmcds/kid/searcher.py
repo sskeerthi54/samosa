@@ -13,13 +13,3 @@ class WordSearcher:
 
         return positions 
 
-#example
-matrix = [
-    ["Hello" , "World"],
-    ["Hi" , "hello"],
-    ["HELLO" , "Python"]
-]
-
-searcher = WordSearcher(matrix)
-result = searcher.search_word("hello")
-print("Positions found",result)
