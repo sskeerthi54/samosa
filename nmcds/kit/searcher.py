@@ -1,7 +1,5 @@
 class WordSearcher:
     def __init__(self,matrix: list[list[str]]):
-
-        
         self.matrix=matrix
 
     def search_word(self, word: str) -> list[tuple[int, int]]:
